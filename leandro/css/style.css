@@ -1,0 +1,96 @@
+body{
+    background-image: url('../img/back.png');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+.pag{
+    min-height: 100vh;
+    
+    margin: 0em 25em;
+    border: 0.1em solid white;
+}
+
+.foto{
+    background-image: url("../img/back.png");
+}
+
+.pag .foto img{
+    border-radius: 100%;
+    border: 0.8em  gold double;
+    width: 80%;
+    margin-top:4em;
+}
+
+.pag h1{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding: 0.8em;
+    padding-bottom: 0em;      
+}
+.pag h2{
+    color: gold;
+    padding-top: 0em;
+    padding-bottom: 2em;
+}
+
+.quadro{
+    background-color:GRAY;
+    background-image: url("../img/sutil.jpg");
+    color: darkblue;
+   
+    padding: 2em;
+}
+
+.quadro a{
+    border: 0.5em double gray;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border-radius: 2em;
+    opacity: 80%;
+    margin-bottom: 0.5em;
+    
+}
+.quadro a:hover{
+    opacity: 100%;
+}
+
+.pag a b{
+    color: darkblue;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 1em;    
+    font-size: 2.5em ;
+    line-height: 2em;
+    
+}
+
+.pag img{
+    width: 17%;
+    margin-left: 0.5em;
+    margin-top: -1em;
+}
+
+.rodape{
+    
+    margin: 0px auto;
+    width: 100%;
+    padding: 1em;
+}
+.rodape a{
+    color: white;
+    text-decoration: none;  
+
+}
+.menor img{    
+    padding: 0.6em;
+}
+
+@media screen and (max-width: 480px) {
+    .pag{
+        background:none;
+        margin: 0em 0em;
+        opacity: 100%;
+    }
+}
