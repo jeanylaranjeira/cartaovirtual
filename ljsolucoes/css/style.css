@@ -1,0 +1,65 @@
+body{
+    background-image: url('../img/back.png');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+.pag{
+    min-height: 100vh;
+    padding: 5em;
+    margin: 0em 12em;
+    
+
+}
+
+.pag h1{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding: 0.8em;
+    border: 0.1em white solid;
+    
+}
+.pag h2{
+    
+    color: white;
+    
+    padding: 1em;
+}
+.quadro{
+    background-color: white;
+    color: darkblue;
+    opacity: 65%;
+    padding: 2em;
+}
+.pag i, .pag h4{
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:2em;
+}
+.pag img{
+    margin-bottom: 1em;
+}
+
+.rodape{
+    position: fixed;
+    bottom: 1px;
+    margin: 0px auto;
+    width: 100%;
+    
+}
+.rodape a{
+    color: white;
+    text-decoration: none;
+}
+.menor img{
+    width: 88%;
+}
+
+@media screen and (max-width: 480px) {
+    .pag{
+        background:none;
+        margin: 0em 0em;
+        opacity: 100%;
+    }
+}
