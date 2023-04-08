@@ -19,7 +19,7 @@ body{
     border-radius: 100%;
     border: 0.8em  gold double;
     width: 80%;
-    margin-top: 4em;
+    margin-top:4em;
 }
 
 .pag h1{
@@ -51,6 +51,7 @@ body{
     border-radius: 2em;
     opacity: 80%;
     margin-bottom: 0.5em;
+    width: 100%;
     
 }
 .quadro a:hover{
@@ -60,16 +61,16 @@ body{
 .pag a b{
     color: darkblue;
     font-family: 'Merriweather Sans', sans-serif;
-    margin-left: 0.5em;    
-    font-size: 2.5em ;
+    margin-left: 1em;    
+    font-size: 1.5em ;
     line-height: 2em;
     
 }
 
 .pag img{
-    width: 20%;
+    width: 15%;
     margin-left: 0.5em;
-    margin-top: -1em;
+    margin-top: -0.5em;
 }
 
 .rodape{
